@@ -4,7 +4,7 @@ import argparse
 import subprocess
 import shlex
 
-__VERSION__ = None
+__VERSION__ = "v0.1.0"
 
 def flip(command, args, debug=False):
     # Invert the last two arguments
