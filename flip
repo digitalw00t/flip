@@ -4,6 +4,8 @@ import argparse
 import subprocess
 import shlex
 
+__VERSION__ = None
+
 def flip(command, args, debug=False):
     # Invert the last two arguments
     inverted_args = args[-1:-3:-1] + args[:-2]
